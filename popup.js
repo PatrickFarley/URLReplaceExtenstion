@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
       chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         console.log("onClick");
         const tab = tabs[0];
-        const prefix = prefixInput.value;
-        const suffix = suffixInput.value;
+        //const prefix = prefixInput.value;
+        //const suffix = suffixInput.value;
         currentURL = tab.url;
 
         regex = /youtube.com/g;
